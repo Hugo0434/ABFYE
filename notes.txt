@@ -13,7 +13,7 @@ add partnering org, sponsor, image list
 
 dynamic font size to fit phone screen use vh vw
 Bright Future Cup font-size larger
-Robo soccer competiton font-size remains
+Robo soccer competition font-size remains
 
 Join now smaller.
 

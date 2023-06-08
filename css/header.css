@@ -90,7 +90,7 @@ a {
   /* The image used */
   background-image: url("../image/header.jpg");
 
-  min-height: calc( 1vw/0.03 );
+  min-height: calc( 1vw/0.05 );
 
   /* Center and scale the image nicely */
   background-position: center;

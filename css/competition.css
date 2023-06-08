@@ -1,0 +1,16 @@
+.content{
+    padding: 5% 15% 5% 15%;
+}
+
+.first h1{
+    font-size: min(5vw, 40px);
+    padding: 0% 0% 2% 0%;
+}
+
+.first{
+    font-size: min(3.5vw, 30px);
+}
+
+table{
+    font-size: min(3vw, 20px);
+}
