@@ -6,11 +6,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="top-container" id="top"></div>
+    <div class="top-container" id="top" style="background-image: url('../image/header_home.JPG')"></div>
     <div class="header" id="myHeader">
       <ul>
         <li id="left"><img src="./logo/ABFYE.svg"></li>
@@ -28,52 +32,12 @@
     </div>
     <script src="javascript/icon.js"></script>
     <div class="content">
-      <div class="intro">
-        <h1>The Bright Future Cup </h1>
-        <h2> Robo-soccer Competition </h2>
-        <p>
-          Deliver effective STEM education via competiion based learning. In the Bright Future Cup, teams of young potential 
-          engineers will experience process of designing, building and programing remote controlled robot; 
-          Team based competiion also embraces teamwork and collaboration, discourages complacency and raises students' 
-          consciousness of the value of good outcomes.
-        </p>
-      </div>
-      <div class="style1">
-        <img src="image/1.jpg" width='50%' />
-        <div class="description">
-          <h1>STEM education</h1>
-          <p>
-            Paticipants need to design and build their own robot. Through the process, 
-            they will be equiped with knowledge of electronic circuit and concepts of robotics. 
-            Furthermore, technique on programing of the robot is also introduced.
-          </p>
-        </div>
-      </div>
-      <div style="padding: 30px"></div>
-      <div class="style2">
-        <img src="image/2.jpg" width='50%' />
-        <div class="description">
-          <h1>Team Building</h1>
-          <p>
-            The Bright Future Cup is a team based competiion. Each team compose of 5 members: 3 starting players, 1 bench player and 1 technical support. 
-            Team members need to cooperate on problem solving, robot building and competition.
-          </p>
-        </div>
-      </div>
-      <div style="padding: 30px"></div>
-      <div class="style1">
-        <img src="image/3.jpg" width='50%' />
-        <div class="description">
-          <h1>Design Thinking and Problem Solving</h1>
-          <p>
-            Through the process of building the robot, design thinking problem solving skills of participants are increased.
-          </p>
-        </div>
-      </div>
-      <div class="bottom">
-        <h2>Join Now! Contact us to sign up for the event.</h2>
-      </div>
     </div>
+    <script>
+      for (let i=4; i<=20;i++){
+        $('.content').append("<img src='./image/home/Slide"+i+".JPG'>");
+      }
+    </script>
     <footer>
       <div class="nav">
         <a href="#top"><u>Home</u></a>

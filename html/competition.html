@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
       rel="stylesheet"
@@ -17,7 +21,7 @@
     
   </head>
   <body>
-    <div class="top-container" id="top"></div>
+    <div class="top-container" id="top" style="background-image: url('../image/header_others.JPG')"></div>
     <div class="header" id="myHeader">
       <ul>
         <li id="left"><img src="../logo/ABFYE.svg"></li>
@@ -35,53 +39,12 @@
     </div>
     <script src="../javascript/icon.js"></script>
     <div class="content">
-      <div class="first">
-        <h1>About the Competition</h1>
-        <p>
-          Our soccer robot competition – “Bright Future Cup” is co-organized by The Hong Kong University of Science and Technology, 
-          EDB STEM Education Centre and Art & Technology Education Centre. The aim is to encourage the participants to use their STEAM knowledge in the competition. 
-          This is so that their creativity, innovation, teamworking and problem-solving skillsets can be nurtured.  
-        </p>
-      </div>
-      <div class="first">
-        <h1>Key Dates</h1>
-        <table class="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">Date</th>
-              <th scope="col">Event</th>
-              <th scope="col">Venue</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Friday, 30<sup>th</sup> June 2023</th>
-              <td>Preliminary Competition for Senior Division</td>
-              <td>Arts & Technology Education Centre
-                145 Junction Road, Lok Fu, Kowloon
-              </td>
-            </tr>
-            <tr>
-              <th scope="row">Saturday, 8<sup>th</sup> July 2023</th>
-              <td>
-                <p>• Final Competition for Senior Division</p>
-                <p>• Robot Design Showcase for Primary Division</p>
-              </td>
-              <td>The Hong Kong University of Science and Technology</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="first">
-        <h1>Programme Rundown for 8<sup>th</sup>July 2023</h1>
-        <img src="../image/table_rundown.jpg" width='100%' />
-      </div>
-      <div class="first">
-        <h1>Details of the Award Ceremony</h1>
-        <img src="../image/table_ceremony.jpg" width='100%' />
-      </div>
-
     </div>
+    <script>
+      for (let i=22; i<=46;i++){
+        $('.content').append("<img src='../image/competition/Slide"+i+".JPG'>");
+      }
+    </script>
     <footer>
       <div class="nav">
         <a href="../index.html"><u>Home</u></a>

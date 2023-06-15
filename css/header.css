@@ -52,7 +52,8 @@ body {
 
 a {
   text-decoration: none;
-  color: green;
+  color: rgb(0, 51, 102);
+  font-weight: bold;
 }
 
 @media screen and (max-width: 800px) {
@@ -88,7 +89,7 @@ a {
 /* top image  */
 .top-container {
   /* The image used */
-  background-image: url("../image/header.jpg");
+  /* background-image: url("../image/header_home.JPG"); */
 
   min-height: calc( 1vw/0.05 );
 
