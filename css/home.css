@@ -9,3 +9,10 @@
   margin-right: auto;
   display: block;
 }
+.first {
+  padding: 0 10% 0 10% ;
+}
+.video {
+  width: 100%;
+  height: 40vw;
+}
